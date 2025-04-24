@@ -1,0 +1,19 @@
+How it will work:
+ 1) Get dataset from github(we can choose any dataset)
+ 2) Train the AI on dataset (we may need multiple large one's)
+ 3) We will use stable defussion and/or pychart to train the AI
+
+No front end or client side required but I can build one anyways
+
+Goal of the AI: 
+ - AI will use  dataset (example skin condition) and then create similar photos
+ - Goal is that instead of using real people to show diseases company's / medical providers will be able to use the AI
+
+Idea for frontend: 
+- Maybe have a input field where you say what AI image you want
+- Maybe use buttons / form to collect information on what they want
+
+Usecase 1) can you generate the image of lungs of a smoker and a normal lung
+Usecase 2) here is a photo of a diseases, can you tell me what it is?
+
+Right now we could focus on lung cancer (images of lungs), but later we could expend to other diseases
