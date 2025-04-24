@@ -12,13 +12,9 @@ Pretrained models are hosted on Hugging Face:
 
 ## Project Structure
 
-- **`classification_lung.ipynb`**  
-  Trains a classification model to identify lung conditions. The resulting model (`model.pth`) is used in the web app.
-
-- **`lungCTAI.ipynb`**  
-  Trains models for generating synthetic lung CT scans. These trained models are uploaded to Hugging Face.
-
-- **`app.py`**  
+- **`model.pth`**  
+  The model (`model.pth`) is used in the web app for classification.
+*  
   The web app that integrates both classification and generation models. It serves as the main interface for users to interact with the AI.
 
 - **`requirements.txt`**  
